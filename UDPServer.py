@@ -7,4 +7,3 @@ while Ture:
     message,clientAddress = serverSocket.recvfrom(2048)
     modifiedMessage = message.upper()
     serverSocket.sendto(modifiedMessage,clientAddress)
-    
